@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Righteous', cursive;
+    background-image: url("./weather.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+h1{
+    font-size: 64px;
+    font-weight: 800;
+    margin-top: 50px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 3px black;
+    
+}
+
+input{
+    margin-top: 100px;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #68AE8B;
+    border-radius: 8px;
+    font-family: inherit;
+
+}
+
+::placeholder{
+    color: #68AE8B;
+}
+
+.card{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+.card-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    gap: 15px;
+    font-weight: 400;
+}
+
+.main-info{
+    text-align: center;
+}
+
+.card-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 15px;
+
+}
+
+.details{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
